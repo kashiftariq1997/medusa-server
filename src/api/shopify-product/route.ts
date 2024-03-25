@@ -14,7 +14,6 @@ export async function POST(
   try {
     const productService = req.scope.resolve<ProductService>("productService");
     const shopifyService = req.scope.resolve<ShopifyService>("shopifyService");
-
     const {products, status} = await shopifyService.getShopifyProducts()
 
     res.status(status).json({ products });
