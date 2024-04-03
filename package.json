@@ -42,10 +42,8 @@
     "medusa-interfaces": "^1.3.8",
     "medusa-payment-manual": "^1.0.24",
     "medusa-payment-stripe": "^6.0.7",
-    "medusa-source-shopify": "^1.2.4-next-20221222145513",
     "medusa-sync-plugin": "../medusa-sync-plugin",
     "prism-react-renderer": "^2.0.4",
-    "shopify-api-node": "^3.13.1",
     "typeorm": "^0.3.16"
   },
   "devDependencies": {
